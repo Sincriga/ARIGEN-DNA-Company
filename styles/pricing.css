@@ -1,0 +1,54 @@
+.pricing-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(37, 99, 235, 0.2);
+}
+
+.pricing-popular {
+    position: absolute;
+    top: 1rem;
+    right: -2rem;
+    background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+    padding: 0.5rem 3rem;
+    transform: rotate(45deg);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.pricing-header {
+    border-bottom: 1px solid rgba(37, 99, 235, 0.2);
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.pricing-features {
+    margin-bottom: 2rem;
+}
+
+.pricing-feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.pricing-feature-icon {
+    color: #2563EB;
+    margin-right: 0.5rem;
+}
+
+.pricing-price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 1rem 0;
+}
+
+.pricing-period {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+}
